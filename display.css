@@ -1,0 +1,166 @@
+/* .tryDisplayFlex{
+    display: flex;
+    height: 200px;
+} */
+ .flex1 > div{
+    background-color: gray;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+.flex1{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+}
+.flex2{
+    background-color:red;
+    display: flex;
+    flex-direction: row;
+}
+.flex2 > div{
+    background-color: gray;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .flex3 > div{
+    background-color: gray;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .flex3{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+}
+.flex4> div{
+  background-color: gray;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex4{
+  background-color: green;
+  display: flex;
+  align-items: center;
+  height: 200px;
+}
+.flex5> div{
+  background-color: gray;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex5{
+  background-color: pink;
+  display: flex;
+  align-items: baseline;
+  height: 200px;
+}
+.flex6> div{
+  background-color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex6{
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+}
+.flex7{
+  background-color: pink;
+  display: flex;
+  align-items: baseline;
+  height: 200px;
+}
+.flex8{
+  background-color: black;
+  display: flex;
+  align-items: baseline;
+  height: 200px;
+}
+.flex9{
+  background-color: blue;
+  display: flex;
+  align-items: baseline;
+  height: 200px;
+}
+.flex10{
+  background-color: red;
+  display: flex;
+  align-items: baseline;
+  height: 200px;
+}
+.flex7> div{
+  background-color: gray;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex8> div{
+  background-color: gray;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex9> div{
+  background-color: gray;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex10> div{
+  background-color: gray;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex11>div{
+    display: flex ;
+    flex-direction: row;
+    text-align: center;
+    font-size: 40px;
+}
+.flex-item-left {
+  background-color: gray;
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  background-color: dodgerblue;
+  padding: 10px;
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media(max-width:2000px){
+  .flex11>div{
+    flex-direction: column;
+  }
+}
