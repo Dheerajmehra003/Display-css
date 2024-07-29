@@ -1,0 +1,44 @@
+.gridcontainer1{
+    display: grid;
+    background-color: blue;
+    padding: 10px;
+    grid-template-columns: auto auto auto;
+}
+.griditem{
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    border: 1px solid black;
+}
+/* .gridcontainer2{
+    display: grid;
+    background-color: red;
+    padding: 10px;
+    grid-template-columns: auto auto auto auto;
+}
+.gridcontainer2>div{
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    border: 1px solid black; */
+    .griditem1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        background-color: gray;
+        text-align: center;
+        padding: 20px;
+        font-size: 40px;
+        border: 1px solid black;
+    }
+    .griditem2{
+        place-self: center;
+        background-color: gray;
+        text-align: center;
+        padding: 20px;
+        font-size: 40px;
+        border: 1px solid black;
+    }
+
+
